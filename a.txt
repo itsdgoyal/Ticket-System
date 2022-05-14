@@ -1,0 +1,23 @@
+const vehicletype = req.body.vehicletype
+    const entrytime = req.body.entrytime
+    const exittime = 0
+    const amount = 0
+    const status = 'entrytaken'
+    const entryrecord = new Entrydata({vehicleno:vehicleno,vehicletype:vehicletype,entrytime:entrytime,exittime:exittime,amount:amount,status:status})
+    
+
+
+
+
+
+    <td><% result.vehicleno %></td>
+            <td><% result.vehicletype%></td>
+            <td><% result.entrytime %></td>
+            <td><% result.exittime %></td>
+            <td><% result.amount %></td>
+            <td><a href=""> <% result.status %> </a></td>
+
+    
+    
+    <% entrydata.forEach((result)=>{ %>
+    <% }) %>
